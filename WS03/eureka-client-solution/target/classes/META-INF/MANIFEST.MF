@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: 01-boot-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: edwinburning
+Implementation-Vendor-Id: org.test
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/eureka-clien
+ t-solution/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: demo.MyApplication
+
