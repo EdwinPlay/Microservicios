@@ -1,0 +1,13 @@
+CRYPTO JDK 8
+http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
+echo $JAVA_HOME
+cd $JAVA_HOME
+cd jre/security/lib
+-dentro del directorio donde se encuentra los JARs descargados
+cp local_policy.jar /usr/java/jdk1.8.0_151/jre/lib/security
+cp US_export_policy.jar /usr/java/jdk1.8.0_151/jre/lib/security
+----------------------------------------------------------------------------
+
+curl -u user:62b9cbc1-947e-4f35-a071-8e10cdadea38 localhost:8001/encrypt -d password
+
+esto te genera un key, ese key se le aigna al security.user.password en el boostrap.yml

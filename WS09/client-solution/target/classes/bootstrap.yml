@@ -1,0 +1,10 @@
+---
+spring:
+  application:
+    name: lucky-word-client
+  cloud:
+    config:
+    #user=> usuario , password => clave que asigne con el comando curl
+      uri: http://user:password@localhost:8001
+server:
+  port: 8002
